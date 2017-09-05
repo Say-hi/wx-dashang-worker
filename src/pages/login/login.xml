@@ -1,0 +1,9 @@
+<image mode='aspectFill' class="bg" src="{{ img }}"></image>
+
+<view class="bg-w"></view>
+
+<view class="content">
+  <image class="userImg br" src="{{ userInfo.avatarUrl }}"></image>
+  <view class="c-i"><text class="iconfont icon-gerenzhongxin"></text><input placeholder="请输入手机号"/></view>
+  <view class="c-i"><text class="iconfont icon-suo"></text><input placeholder="请输入密码"/></view>
+</view>

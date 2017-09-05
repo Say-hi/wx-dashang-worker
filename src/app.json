@@ -1,0 +1,65 @@
+{
+  // All pages must be here.
+  // First is default to view
+  // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#pages
+  "pages": [
+    "pages/login/login" // 用户登陆
+    // Dont remove this comment
+  ],
+  // Window configuration
+  // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#window
+  "window": {
+    // 类型：HexColor；默认值：#000000
+    // 导航栏背景颜色，如"#000000"
+    "navigationBarBackgroundColor": "#4388fb",
+    // 类型：String；默认值：white
+    // 导航栏标题颜色，仅支持 black/white
+    "navigationBarTextStyle": "white",
+    // 类型：String；默认值：无
+    // 导航栏标题文字内容
+    "navigationBarTitleText": "人马科技-员工端",
+    // 类型：HexColor；默认值：#ffffff
+    // 窗口的背景色
+    "backgroundColor": "#ffffff",
+    // 类型：String；默认值：dark
+    // 下拉背景字体、loading 图的样式，仅支持 dark/light
+    "backgroundTextStyle": "light",
+    // 类型：Boolean；默认值：false
+    // 是否开启下拉刷新，详见页面相关事件处理函数。
+    // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/page.html?t=1476197491005#页面相关事件处理函数
+    "enablePullDownRefresh": false
+  },
+//  "tabBar": {
+//      "color": "#999999",
+//      "selectedColor": "#17bffc",
+//      "borderStyle": "white",
+//      "backgroundColor": "#fff",
+//      "list": [
+//        {
+//          "text": "首页",
+//          "pagePath": "pages/index/index",
+//          "iconPath": "images/index.png",
+//          "selectedIconPath": "images/index_hl.png"
+//        },
+//        {
+//          "text": "打赏",
+//          "pagePath": "pages/ds/ds",
+//          "iconPath": "images/dashang.png",
+//          "selectedIconPath": "images/dashang_hl.png"
+//        },
+//        {
+//          "text": "我的",
+//          "pagePath": "pages/user/user",
+//          "iconPath": "images/user.png",
+//          "selectedIconPath": "images/user_hl.png"
+//        }
+//      ]
+//    },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  // Debug log to console
+  // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#debug
+  "debug": true
+}

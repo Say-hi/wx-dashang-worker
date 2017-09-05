@@ -1,0 +1,63 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  filter: blur(8rpx);
+}
+
+.bg-w {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+  //background-image: url("http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg");
+  //background-repeat: no-repeat;
+  //background-size: 100% 100%;
+  //filter: blur(8rpx);
+}
+
+.content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  .userImg {
+    display: block;
+    width: 230rpx;
+    height: 230rpx;
+    margin: 50rpx auto;
+    margin-top: 160rpx;
+  }
+  @h: 80rpx;
+  .c-i {
+    width: 520rpx;
+    height: @h;
+    line-height: @h;
+    margin: 20rpx auto;
+    //background-color: #fff;
+    position: relative;
+    border-radius: 10rpx;
+    border: 2rpx solid #eee;
+    text {
+      position: absolute;
+      top: 50%;
+      left: 10rpx;
+      transform: translateY(-50%);
+    }
+    input {
+      font-size: 30rpx;
+      width: 100%;
+      height: 100%;
+      line-height: inherit;
+      padding-left: 60rpx;
+    }
+  }
+}
