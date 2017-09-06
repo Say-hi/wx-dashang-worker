@@ -4,6 +4,9 @@
 
 <view class="content">
   <image class="userImg br" src="{{ userInfo.avatarUrl }}"></image>
-  <view class="c-i"><text class="iconfont icon-gerenzhongxin"></text><input placeholder="请输入手机号"/></view>
-  <view class="c-i"><text class="iconfont icon-suo"></text><input placeholder="请输入密码"/></view>
+  <view class="c-i"><text class="iconfont icon-gerenzhongxin"></text><input data-type="phone" bindinput="inputValue" type="number" placeholder="请输入手机号"/></view>
+  <view class="c-i"><text class="iconfont icon-suo"></text><input data-type="pwd" bindinput="inputValue" type="password" placeholder="请输入密码"/></view>
+  <view catchtap="userLogin" class="c-i login">登陆</view>
+  <navigator url="../register/register" class="c-i register">员工注册</navigator>
+  <navigator hover-class="none" url="../forget/forget" class="forget">忘记密码?</navigator>
 </view>

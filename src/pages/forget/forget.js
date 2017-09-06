@@ -8,8 +8,10 @@ Page({
    */
   data: {
     title: 'login',
-    iv: {},
-    img: 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'
+    img: 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+    showText: '获取验证码',
+    numberDisabled: false,
+    iv: {}
   },
   // 获取用户信息
   getUserInfo () {
@@ -21,6 +23,28 @@ Page({
       app.gu(this.getUserInfo)
     }
   },
+  // 获取验证码
+  getNumber () {
+    this.setData({
+      numberDisabled: true
+    })
+    let time = 60
+    let that = this
+    let timer = setInterval(function () {
+      if (time <= 0) {
+        clearInterval(timer)
+        that.setData({
+          numberDisabled: false,
+          showText: '重新获取验证码'
+        })
+        return
+      }
+      that.setData({
+        showText: --time + 's'
+      })
+    }, 1000)
+    // todo
+  },
   // 获取输入内容
   inputValue (e) {
     let type = e.currentTarget.dataset.type
@@ -28,6 +52,10 @@ Page({
     let { iv } = this.data
     if (type === 'phone') {
       iv['phone'] = value
+    } else if (type === 'captcha') {
+      iv['captcha'] = value
+    } else if (type === 'cPwd') {
+      iv['cPwd'] = value
     } else if (type === 'pwd') {
       iv['pwd'] = value
     }
@@ -35,16 +63,24 @@ Page({
       iv
     })
   },
-  // 用户登陆
-  userLogin () {
-    let { phone, pwd } = this.data.iv
-    if (!phone || phone.length * 1 !== 11) {
+  // 密码重置
+  register () {
+    let { phone, captcha, cPwd, pwd } = this.data.iv
+    if (!phone || (phone.length * 1 !== 11)) {
       wx.showToast({
-        title: '请输入手机号码'
+        title: '请输入正确的手机号码'
       })
-    } else if (!pwd) {
+    } else if (!captcha) {
+      wx.showToast({
+        title: '请输入验证码'
+      })
+    } else if (!cPwd || !pwd) {
       wx.showToast({
         title: '请输入密码'
+      })
+    } else if (pwd !== cPwd) {
+      wx.showToast({
+        title: '两次输入的密码不一致'
       })
     } else {
       // todo

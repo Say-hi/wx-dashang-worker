@@ -1,0 +1,104 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  .br {
+    width: 200%;
+    background-color: #17c0fc;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-25%, -50%);
+  }
+}
+.c-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  .user-wrap {
+    width: 564rpx;
+    height: 25%;
+    position: relative;
+    background-color: #fff;
+    margin: 50rpx auto;
+    border-radius: 10rpx;
+    box-shadow: 0 0 10rpx 4rpx #d5e2ff;
+    .br {
+      width: 122rpx;
+      height: 122rpx;
+      display: block;
+      margin: 0rpx auto;
+      transform: translateY(10rpx);
+    }
+    .u-name {
+      text-align: center;
+      font-size: 24rpx;
+      padding-top: 17rpx;
+    }
+    .tx {
+      width: 135rpx;
+      line-height: 40rpx;
+      color: #fff;
+      margin: 0 auto;
+      margin-top: 20rpx;
+      background-color: #1bb9fc;
+      border-radius: 8rpx;
+      padding: 0 10rpx;
+      font-size: 28rpx;
+      text-align: center;
+      box-shadow: 0 0 6rpx 2rpx #d7f3fe;
+    }
+    .b-bg {
+      width: 100%;
+      height: 80rpx;
+      overflow: hidden;
+      image {
+        width: 140%;
+        transform: translate(-10%, 0);
+        height: 200rpx;
+      }
+    }
+    .u-o {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .u-account {
+        font-size: 24rpx;
+        color: #222;
+        text-align: center;
+        text {
+          font-size: 18rpx;
+        }
+        view:nth-child(2) {
+          color: #8aa5cb;
+        }
+      }
+      picker {
+        color: #8aa5cb;
+        font-size: 24rpx;
+      }
+    }
+  }
+
+  .container {
+    height: 60%;
+    canvas {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+

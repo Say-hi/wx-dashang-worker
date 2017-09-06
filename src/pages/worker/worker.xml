@@ -1,0 +1,36 @@
+<view class="bg">
+  <view class="br"></view>
+</view>
+
+<view class="c-wrap">
+  <view class="user-wrap">
+    <image class="br" src="{{ userInfo.avatarUrl }}"></image>
+    <view class="u-name">{{ userInfo.nickName }}</view>
+    <view class="tx">我要提现</view>
+    <view class="b-bg"><image src="../../images/bg.png"></image></view>
+    <view class="u-o">
+      <view class="u-account">
+        <view><text>￥</text>{{ money }}</view>
+        <view>账户余额</view>
+      </view>
+      <!--点赞选择-->
+      <picker bindchange="dzChange" value="{{ dz }}" range="{{ dzList }}">
+        <view class="picker">
+          {{dzList[dz]}}▼
+        </view>
+      </picker>
+      <!--打赏选择-->
+      <picker bindchange="dsChange" value="{{ ds }}" range="{{ dsList }}">
+        <view class="picker">
+          {{dsList[ds]}}▼
+        </view>
+      </picker>
+    </view>
+  </view>
+  <!--数据展示canvas-->
+  <view class="container">
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+</view>
+
+

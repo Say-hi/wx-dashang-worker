@@ -47,19 +47,31 @@ page {
     position: relative;
     border-radius: 10rpx;
     border: 2rpx solid #eee;
-    text {
+    button {
       position: absolute;
       top: 50%;
-      left: 10rpx;
-      color: #fff;
+      z-index: 90;
+      right: 10rpx;
+      width: 160rpx;
+      height: @h - 40;
+      line-height: @h - 40;
+      font-size: 24rpx;
+      padding: 2rpx;
+      background-color: #fff;
+      color: #000;
       transform: translateY(-50%);
+    }
+    .grow {
+      background: #eee;
+      color: #999;
     }
     input {
       font-size: 30rpx;
       width: 100%;
       height: 100%;
+      box-sizing: border-box;
       line-height: inherit;
-      padding-left: 60rpx;
+      padding-left: 20rpx;
     }
   }
   .login, .register {

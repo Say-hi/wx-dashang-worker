@@ -3,7 +3,10 @@
   // First is default to view
   // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#pages
   "pages": [
-    "pages/login/login" // 用户登陆
+    "pages/worker/worker", // 员工界面
+    "pages/login/login", // 用户登陆,
+    "pages/forget/forget", // 忘记密码
+    "pages/register/register" // 员工注册
     // Dont remove this comment
   ],
   // Window configuration
@@ -11,7 +14,7 @@
   "window": {
     // 类型：HexColor；默认值：#000000
     // 导航栏背景颜色，如"#000000"
-    "navigationBarBackgroundColor": "#4388fb",
+    "navigationBarBackgroundColor": "#17c0fc",
     // 类型：String；默认值：white
     // 导航栏标题颜色，仅支持 black/white
     "navigationBarTextStyle": "white",

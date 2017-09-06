@@ -21,39 +21,32 @@
       <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/login/login.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="18" />
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.less">
+      <file leaf-file-name="worker.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/worker/worker.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
-                <element signature="e#10#129#0" expanded="false" />
-                <element signature="e#135#160#0" expanded="false" />
-                <element signature="e#166#248#0" expanded="false" />
-                <element signature="e#269#373#0" expanded="false" />
-                <element signature="e#379#407#0" expanded="false" />
-                <element signature="e#413#441#0" expanded="false" />
-                <element signature="e#447#475#0" expanded="false" />
-                <element signature="e#524#751#0" expanded="false" />
-                <element signature="e#799#3060#1" expanded="true" />
-                <element signature="e#3177#3333#0" expanded="false" />
+                <element signature="n#view#0;n#view#1;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/worker/worker.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,8 +55,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="293" column="14" lean-forward="false" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+            <state relative-caret-position="2100">
+              <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
               <folding>
                 <element signature="e#483#1213#0" expanded="false" />
                 <element signature="e#1241#1702#0" expanded="false" />
@@ -76,37 +69,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/login/login.less">
+      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="313">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding>
-                <element signature="e#5#39#0" expanded="false" />
-                <element signature="e#45#101#0" expanded="false" />
-                <element signature="e#109#409#0" expanded="false" />
-                <element signature="e#519#631#0" expanded="false" />
+                <element signature="e#10#129#0" expanded="false" />
+                <element signature="e#135#160#0" expanded="false" />
+                <element signature="e#166#248#0" expanded="false" />
+                <element signature="e#269#373#0" expanded="false" />
+                <element signature="e#379#407#0" expanded="false" />
+                <element signature="e#413#441#0" expanded="false" />
+                <element signature="e#447#475#0" expanded="false" />
+                <element signature="e#484#509#0" expanded="false" />
+                <element signature="e#524#751#0" expanded="false" />
+                <element signature="e#3466#3622#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/login/login.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/login/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +93,8 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+            <state relative-caret-position="570">
+              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
                 <element signature="e#145#264#0" expanded="false" />
                 <element signature="e#308#1695#0" expanded="false" />
@@ -123,6 +102,133 @@
                 <element signature="e#1873#2036#0" expanded="false" />
                 <element signature="e#2050#2147#0" expanded="false" />
                 <element signature="e#2178#2449#0" expanded="false" />
+                <element signature="e#2484#2616#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="worker.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/worker/worker.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#126#283#0" expanded="false" />
+                <element signature="e#568#701#0" expanded="false" />
+                <element signature="e#714#797#0" expanded="false" />
+                <element signature="e#806#1101#0" expanded="false" />
+                <element signature="e#1112#1289#0" expanded="false" />
+                <element signature="e#1299#1760#0" expanded="false" />
+                <element signature="e#1480#1681#0" expanded="false" />
+                <element signature="e#1570#1609#0" expanded="false" />
+                <element signature="e#1636#1673#0" expanded="false" />
+                <element signature="e#1695#1754#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wxcharts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/wxcharts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#47#732#0" expanded="false" />
+                <element signature="n#!!block;n#assign#0" expanded="false" />
+                <element signature="e#1456#2583#0" expanded="false" />
+                <element signature="n#!!block;n#findRange#0" expanded="false" />
+                <element signature="n#!!block;n#isInAngleRange#0" expanded="false" />
+                <element signature="n#!!block;n#calRotateTranslate#0" expanded="false" />
+                <element signature="n#!!block;n#createCurveControlPoints#0" expanded="false" />
+                <element signature="n#!!block;n#convertCoordinateOrigin#0" expanded="false" />
+                <element signature="n#!!block;n#avoidCollision#0" expanded="false" />
+                <element signature="n#!!block;n#fillSeriesColor#0" expanded="false" />
+                <element signature="n#!!block;n#getDataRange#0" expanded="false" />
+                <element signature="n#!!block;n#measureText#0" expanded="false" />
+                <element signature="n#!!block;n#dataCombine#0" expanded="false" />
+                <element signature="n#!!block;n#getSeriesDataItem#0" expanded="false" />
+                <element signature="n#!!block;n#getMaxTextListLength#0" expanded="false" />
+                <element signature="n#!!block;n#getRadarCoordinateSeries#0" expanded="false" />
+                <element signature="n#!!block;n#getToolTipData#0" expanded="false" />
+                <element signature="n#!!block;n#findCurrentIndex#0" expanded="false" />
+                <element signature="n#!!block;n#isInExactChartArea#0" expanded="false" />
+                <element signature="n#!!block;n#findRadarChartCurrentIndex#0" expanded="false" />
+                <element signature="n#!!block;n#findPieChartCurrentIndex#0" expanded="false" />
+                <element signature="n#!!block;n#isInExactPieChartArea#0" expanded="false" />
+                <element signature="n#!!block;n#splitPoints#0" expanded="false" />
+                <element signature="n#!!block;n#calLegendData#0" expanded="false" />
+                <element signature="n#!!block;n#calCategoriesData#0" expanded="false" />
+                <element signature="n#!!block;n#getRadarDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#getPieDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#getPieTextMaxLength#0" expanded="false" />
+                <element signature="n#!!block;n#fixColumeData#0" expanded="false" />
+                <element signature="n#!!block;n#getXAxisPoints#0" expanded="false" />
+                <element signature="n#!!block;n#getDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#getYAxisTextList#0" expanded="false" />
+                <element signature="n#!!block;n#calYAxisData#0" expanded="false" />
+                <element signature="n#!!block;n#drawPointShape#0" expanded="false" />
+                <element signature="n#!!block;n#drawRingTitle#0" expanded="false" />
+                <element signature="n#!!block;n#drawPointText#0" expanded="false" />
+                <element signature="n#!!block;n#drawRadarLabel#0" expanded="false" />
+                <element signature="n#!!block;n#drawPieText#0" expanded="false" />
+                <element signature="n#!!block;n#drawToolTipSplitLine#0" expanded="false" />
+                <element signature="n#!!block;n#drawToolTip#0" expanded="false" />
+                <element signature="n#!!block;n#drawYAxisTitle#0" expanded="false" />
+                <element signature="n#!!block;n#drawColumnDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawAreaDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawLineDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawXAxis#0" expanded="false" />
+                <element signature="n#!!block;n#drawYAxis#0" expanded="false" />
+                <element signature="n#!!block;n#drawLegend#0" expanded="false" />
+                <element signature="n#!!block;n#drawPieDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawRadarDataPoints#0" expanded="false" />
+                <element signature="n#!!block;n#drawCanvas#0" expanded="false" />
+                <element signature="e#55158#55588#0" expanded="false" />
+                <element signature="n#!!block;n#Animation#0" expanded="false" />
+                <element signature="e#57396#57423#0" expanded="false" />
+                <element signature="n#!!block;n#drawCharts#0" expanded="false" />
+                <element signature="n#!!block;n#Event#0" expanded="false" />
+                <element signature="e#62683#62767#0" expanded="false" />
+                <element signature="e#62808#63159#0" expanded="false" />
+                <element signature="e#63197#64156#0" expanded="false" />
+                <element signature="e#64201#64646#0" expanded="false" />
+                <element signature="e#64694#64758#0" expanded="false" />
+                <element signature="e#64823#64875#0" expanded="false" />
+                <element signature="e#64930#65551#0" expanded="false" />
+                <element signature="e#65598#66728#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/register/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+              <folding>
+                <element signature="e#332#464#0" expanded="false" />
+                <element signature="e#492#888#0" expanded="false" />
+                <element signature="e#919#1302#0" expanded="false" />
+                <element signature="e#1328#1758#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forget.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/forget/forget.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
+              <folding>
+                <element signature="e#332#464#0" expanded="false" />
+                <element signature="e#492#888#0" expanded="false" />
+                <element signature="e#919#1302#0" expanded="false" />
+                <element signature="e#1328#1779#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -147,24 +253,13 @@
       <find>icon-xin</find>
       <find>dz</find>
       <find>star</find>
+      <find>br</find>
+      <find>createSimulationData</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/index/index.less" />
-        <option value="$PROJECT_DIR$/pages/user/user.less" />
-        <option value="$PROJECT_DIR$/pages/dsRecord/dsRecord.json" />
-        <option value="$PROJECT_DIR$/pages/dsRecord/dsRecord.xml" />
-        <option value="$PROJECT_DIR$/pages/dsRecord/dsRecord.less" />
-        <option value="$PROJECT_DIR$/pages/plRecord/plRecord.json" />
-        <option value="$PROJECT_DIR$/pages/plRecord/plRecord.less" />
-        <option value="$PROJECT_DIR$/pages/plRecord/plRecord.js" />
-        <option value="$PROJECT_DIR$/pages/user/user.xml" />
-        <option value="$PROJECT_DIR$/pages/plRecord/plRecord.xml" />
-        <option value="$PROJECT_DIR$/pages/plDetail/plDetail.json" />
-        <option value="$PROJECT_DIR$/pages/plDetail/plDetail.xml" />
-        <option value="$PROJECT_DIR$/pages/plDetail/plDetail.js" />
         <option value="$PROJECT_DIR$/pages/plDetail/plDetail.less" />
         <option value="$PROJECT_DIR$/pages/problem/problem.json" />
         <option value="$PROJECT_DIR$/pages/problem/problem.less" />
@@ -178,7 +273,6 @@
         <option value="$PROJECT_DIR$/pages/detail/detail.less" />
         <option value="$PROJECT_DIR$/pages/dsRecord/dsRecord.js" />
         <option value="$PROJECT_DIR$/pages/comment/comment.json" />
-        <option value="$PROJECT_DIR$/utils/common.js" />
         <option value="$PROJECT_DIR$/pages/comment/comment.xml" />
         <option value="$PROJECT_DIR$/pages/comment/comment.less" />
         <option value="$PROJECT_DIR$/pages/comment/comment.js" />
@@ -196,13 +290,27 @@
         <option value="$PROJECT_DIR$/pages/kf/kf.xml" />
         <option value="$PROJECT_DIR$/pages/kf/kf.less" />
         <option value="$PROJECT_DIR$/pages/index/index.xml" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/login/login.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/pages/login/login.js" />
-        <option value="$PROJECT_DIR$/app.less" />
-        <option value="$PROJECT_DIR$/pages/login/login.xml" />
         <option value="$PROJECT_DIR$/pages/login/login.less" />
+        <option value="$PROJECT_DIR$/pages/register/register.json" />
+        <option value="$PROJECT_DIR$/pages/register/register.less" />
+        <option value="$PROJECT_DIR$/pages/register/register.xml" />
+        <option value="$PROJECT_DIR$/pages/forget/forget.less" />
+        <option value="$PROJECT_DIR$/pages/forget/forget.json" />
+        <option value="$PROJECT_DIR$/pages/forget/forget.xml" />
+        <option value="$PROJECT_DIR$/pages/login/login.xml" />
+        <option value="$PROJECT_DIR$/pages/worker/worker.json" />
+        <option value="$PROJECT_DIR$/pages/forget/forget.js" />
+        <option value="$PROJECT_DIR$/pages/login/login.js" />
+        <option value="$PROJECT_DIR$/pages/register/register.js" />
+        <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/utils/common.js" />
+        <option value="$PROJECT_DIR$/pages/worker/worker.xml" />
+        <option value="$PROJECT_DIR$/utils/wxcharts.js" />
+        <option value="$PROJECT_DIR$/app.less" />
+        <option value="$PROJECT_DIR$/pages/worker/worker.less" />
+        <option value="$PROJECT_DIR$/pages/worker/worker.js" />
       </list>
     </option>
   </component>
@@ -219,8 +327,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="875" />
-    <option name="width" value="1045" />
+    <option name="x" value="469" />
+    <option name="width" value="1457" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
@@ -239,6 +347,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,13 +388,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="worker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,6 +422,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\renma-work\wx-dashang-worker\for-use\src\utils" />
       <recent name="F:\renma-work\wx-dashang\for-use\src\images" />
       <recent name="F:\renma-work\wx-dashang\for-use\src\utils" />
     </key>
@@ -388,32 +511,35 @@
       <workItem from="1504227820544" duration="4792000" />
       <workItem from="1504516369288" duration="3185000" />
       <workItem from="1504520669214" duration="5649000" />
+      <workItem from="1504573922095" duration="9006000" />
+      <workItem from="1504584118104" duration="10141000" />
+      <workItem from="1504660293503" duration="5758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76276000" />
+    <option name="totallyTimeSpent" value="101181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="875" y="0" width="1045" height="1050" extended-state="0" />
+    <frame x="469" y="0" width="1457" height="1050" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2164846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14728682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291939" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29302832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,116 +550,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/dsRecord/dsRecord.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plRecord/plRecord.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plRecord/plRecord.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plRecord/plRecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="75" lean-forward="false" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plRecord/plRecord.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plDetail/plDetail.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plDetail/plDetail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plDetail/plDetail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="80" lean-forward="false" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/plDetail/plDetail.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/problem/problem.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/problem/problem.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.json" />
+    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.less" />
     <entry file="file://$PROJECT_DIR$/wxParse/wxParse.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -541,240 +564,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.xml">
+    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.js" />
+    <entry file="file://$PROJECT_DIR$/pages/detail/detail.less" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.js" />
+    <entry file="file://$PROJECT_DIR$/pages/dsRecord/dsRecord.js" />
+    <entry file="file://$PROJECT_DIR$/pages/ds/ds.json" />
+    <entry file="file://$PROJECT_DIR$/pages/dsRecord/dsRecord.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.json" />
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.less" />
+    <entry file="file://$PROJECT_DIR$/pages/comment/comment.js" />
+    <entry file="file://$PROJECT_DIR$/pages/detail/detail.js" />
+    <entry file="file://$PROJECT_DIR$/pages/detail/detail.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/ds/ds.js" />
+    <entry file="file://$PROJECT_DIR$/pages/ds/ds.less" />
+    <entry file="file://$PROJECT_DIR$/pages/ds/ds.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/setting/setting.json" />
+    <entry file="file://$PROJECT_DIR$/pages/problem/problem.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/problem/problem.js" />
+    <entry file="file://$PROJECT_DIR$/pages/setting/setting.js" />
+    <entry file="file://$PROJECT_DIR$/pages/setting/setting.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/setting/setting.less" />
+    <entry file="file://$PROJECT_DIR$/pages/kf/kf.json" />
+    <entry file="file://$PROJECT_DIR$/pages/kf/kf.js" />
+    <entry file="file://$PROJECT_DIR$/pages/kf/kf.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/kf/kf.less" />
+    <entry file="file://$PROJECT_DIR$/pages/index/index.xml" />
+    <entry file="file://$PROJECT_DIR$/pages/login/login.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pDetail/pDetail.js">
+    <entry file="file://$PROJECT_DIR$/pages/login/login.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        <state relative-caret-position="364">
+          <caret line="72" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/detail/detail.less">
+    <entry file="file://$PROJECT_DIR$/pages/register/register.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.js">
+    <entry file="file://$PROJECT_DIR$/pages/register/register.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" column="77" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="77" />
+        <state relative-caret-position="1740">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dsRecord/dsRecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ds/ds.json">
+    <entry file="file://$PROJECT_DIR$/pages/register/register.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/dsRecord/dsRecord.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/comment/comment.json">
+    <entry file="file://$PROJECT_DIR$/pages/forget/forget.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/comment/comment.xml">
+    <entry file="file://$PROJECT_DIR$/pages/forget/forget.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="2580">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/comment/comment.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="63" column="17" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/comment/comment.js">
+    <entry file="file://$PROJECT_DIR$/pages/forget/forget.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/detail/detail.js">
+    <entry file="file://$PROJECT_DIR$/pages/login/login.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/detail/detail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ds/ds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="97" column="18" lean-forward="false" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ds/ds.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="197" column="1" lean-forward="false" selection-start-line="197" selection-start-column="1" selection-end-line="197" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ds/ds.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/setting/setting.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/problem/problem.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/problem/problem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="7" selection-start-column="5" selection-end-line="8" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/setting/setting.js">
+    <entry file="file://$PROJECT_DIR$/pages/worker/worker.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/setting/setting.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="60" selection-end-line="0" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/setting/setting.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/kf/kf.json">
+    <entry file="file://$PROJECT_DIR$/pages/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/kf/kf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="45" lean-forward="false" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/kf/kf.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/kf/kf.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index/index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="75" column="40" lean-forward="false" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
           <folding>
-            <element signature="e#145#264#0" expanded="false" />
-            <element signature="e#308#1695#0" expanded="false" />
-            <element signature="e#1709#1832#0" expanded="false" />
-            <element signature="e#1873#2036#0" expanded="false" />
-            <element signature="e#2050#2147#0" expanded="false" />
-            <element signature="e#2178#2449#0" expanded="false" />
+            <element signature="e#282#414#0" expanded="false" />
+            <element signature="e#445#704#0" expanded="false" />
+            <element signature="e#731#983#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="293" column="14" lean-forward="false" selection-start-line="293" selection-start-column="14" selection-end-line="293" selection-end-column="14" />
+        <state relative-caret-position="2100">
+          <caret line="293" column="0" lean-forward="false" selection-start-line="293" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
           <folding>
             <element signature="e#483#1213#0" expanded="false" />
             <element signature="e#1241#1702#0" expanded="false" />
@@ -786,18 +688,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.js">
+    <entry file="file://$PROJECT_DIR$/app.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#145#264#0" expanded="false" />
+            <element signature="e#308#1695#0" expanded="false" />
+            <element signature="e#1709#1832#0" expanded="false" />
+            <element signature="e#1873#2036#0" expanded="false" />
+            <element signature="e#2050#2147#0" expanded="false" />
+            <element signature="e#2178#2449#0" expanded="false" />
+            <element signature="e#2484#2616#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/register/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+          <folding>
+            <element signature="e#332#464#0" expanded="false" />
+            <element signature="e#492#888#0" expanded="false" />
+            <element signature="e#919#1302#0" expanded="false" />
+            <element signature="e#1328#1758#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/forget/forget.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
+          <folding>
+            <element signature="e#332#464#0" expanded="false" />
+            <element signature="e#492#888#0" expanded="false" />
+            <element signature="e#919#1302#0" expanded="false" />
+            <element signature="e#1328#1779#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/wxcharts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#47#732#0" expanded="false" />
+            <element signature="n#!!block;n#assign#0" expanded="false" />
+            <element signature="e#1456#2583#0" expanded="false" />
+            <element signature="n#!!block;n#findRange#0" expanded="false" />
+            <element signature="n#!!block;n#isInAngleRange#0" expanded="false" />
+            <element signature="n#!!block;n#calRotateTranslate#0" expanded="false" />
+            <element signature="n#!!block;n#createCurveControlPoints#0" expanded="false" />
+            <element signature="n#!!block;n#convertCoordinateOrigin#0" expanded="false" />
+            <element signature="n#!!block;n#avoidCollision#0" expanded="false" />
+            <element signature="n#!!block;n#fillSeriesColor#0" expanded="false" />
+            <element signature="n#!!block;n#getDataRange#0" expanded="false" />
+            <element signature="n#!!block;n#measureText#0" expanded="false" />
+            <element signature="n#!!block;n#dataCombine#0" expanded="false" />
+            <element signature="n#!!block;n#getSeriesDataItem#0" expanded="false" />
+            <element signature="n#!!block;n#getMaxTextListLength#0" expanded="false" />
+            <element signature="n#!!block;n#getRadarCoordinateSeries#0" expanded="false" />
+            <element signature="n#!!block;n#getToolTipData#0" expanded="false" />
+            <element signature="n#!!block;n#findCurrentIndex#0" expanded="false" />
+            <element signature="n#!!block;n#isInExactChartArea#0" expanded="false" />
+            <element signature="n#!!block;n#findRadarChartCurrentIndex#0" expanded="false" />
+            <element signature="n#!!block;n#findPieChartCurrentIndex#0" expanded="false" />
+            <element signature="n#!!block;n#isInExactPieChartArea#0" expanded="false" />
+            <element signature="n#!!block;n#splitPoints#0" expanded="false" />
+            <element signature="n#!!block;n#calLegendData#0" expanded="false" />
+            <element signature="n#!!block;n#calCategoriesData#0" expanded="false" />
+            <element signature="n#!!block;n#getRadarDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#getPieDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#getPieTextMaxLength#0" expanded="false" />
+            <element signature="n#!!block;n#fixColumeData#0" expanded="false" />
+            <element signature="n#!!block;n#getXAxisPoints#0" expanded="false" />
+            <element signature="n#!!block;n#getDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#getYAxisTextList#0" expanded="false" />
+            <element signature="n#!!block;n#calYAxisData#0" expanded="false" />
+            <element signature="n#!!block;n#drawPointShape#0" expanded="false" />
+            <element signature="n#!!block;n#drawRingTitle#0" expanded="false" />
+            <element signature="n#!!block;n#drawPointText#0" expanded="false" />
+            <element signature="n#!!block;n#drawRadarLabel#0" expanded="false" />
+            <element signature="n#!!block;n#drawPieText#0" expanded="false" />
+            <element signature="n#!!block;n#drawToolTipSplitLine#0" expanded="false" />
+            <element signature="n#!!block;n#drawToolTip#0" expanded="false" />
+            <element signature="n#!!block;n#drawYAxisTitle#0" expanded="false" />
+            <element signature="n#!!block;n#drawColumnDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawAreaDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawLineDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawXAxis#0" expanded="false" />
+            <element signature="n#!!block;n#drawYAxis#0" expanded="false" />
+            <element signature="n#!!block;n#drawLegend#0" expanded="false" />
+            <element signature="n#!!block;n#drawPieDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawRadarDataPoints#0" expanded="false" />
+            <element signature="n#!!block;n#drawCanvas#0" expanded="false" />
+            <element signature="e#55158#55588#0" expanded="false" />
+            <element signature="n#!!block;n#Animation#0" expanded="false" />
+            <element signature="e#57396#57423#0" expanded="false" />
+            <element signature="n#!!block;n#drawCharts#0" expanded="false" />
+            <element signature="n#!!block;n#Event#0" expanded="false" />
+            <element signature="e#62683#62767#0" expanded="false" />
+            <element signature="e#62808#63159#0" expanded="false" />
+            <element signature="e#63197#64156#0" expanded="false" />
+            <element signature="e#64201#64646#0" expanded="false" />
+            <element signature="e#64694#64758#0" expanded="false" />
+            <element signature="e#64823#64875#0" expanded="false" />
+            <element signature="e#64930#65551#0" expanded="false" />
+            <element signature="e#65598#66728#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        <state relative-caret-position="313">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
           <folding>
             <element signature="e#10#129#0" expanded="false" />
             <element signature="e#135#160#0" expanded="false" />
@@ -806,30 +823,48 @@
             <element signature="e#379#407#0" expanded="false" />
             <element signature="e#413#441#0" expanded="false" />
             <element signature="e#447#475#0" expanded="false" />
+            <element signature="e#484#509#0" expanded="false" />
             <element signature="e#524#751#0" expanded="false" />
-            <element signature="e#799#3060#1" expanded="true" />
-            <element signature="e#3177#3333#0" expanded="false" />
+            <element signature="e#3466#3622#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.xml">
+    <entry file="file://$PROJECT_DIR$/pages/worker/worker.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#126#283#0" expanded="false" />
+            <element signature="e#568#701#0" expanded="false" />
+            <element signature="e#714#797#0" expanded="false" />
+            <element signature="e#806#1101#0" expanded="false" />
+            <element signature="e#1112#1289#0" expanded="false" />
+            <element signature="e#1299#1760#0" expanded="false" />
+            <element signature="e#1480#1681#0" expanded="false" />
+            <element signature="e#1570#1609#0" expanded="false" />
+            <element signature="e#1636#1673#0" expanded="false" />
+            <element signature="e#1695#1754#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/login/login.less">
+    <entry file="file://$PROJECT_DIR$/pages/worker/worker.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <element signature="e#5#39#0" expanded="false" />
-            <element signature="e#45#101#0" expanded="false" />
-            <element signature="e#109#409#0" expanded="false" />
-            <element signature="e#519#631#0" expanded="false" />
+            <element signature="n#view#0;n#view#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/worker/worker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="107" column="25" lean-forward="true" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

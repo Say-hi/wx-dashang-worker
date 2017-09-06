@@ -99,5 +99,15 @@ module.exports = {
       urls: newImgArr
     }
     wx.previewImage(obj)
+  },
+  // 获取用户信息
+  getUserInfo (that) {
+    if (app.gu()) {
+      that.setData({
+        userInfo: app.gu()
+      })
+    } else {
+      app.gu(that.getUserInfo)
+    }
   }
 }

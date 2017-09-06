@@ -1,0 +1,12 @@
+<image mode='aspectFill' class="bg" src="{{ img }}"></image>
+
+<view class="bg-w"></view>
+
+<view class="content">
+<image class="userImg br" src="{{ userInfo.avatarUrl }}"></image>
+<view class="c-i"><input bindinput="inputValue" data-type="phone" maxlength="11" type="number" placeholder="请输入手机号"/></view>
+<view class="c-i"><input bindinput="inputValue" data-type="captcha" placeholder="请输入验证码"/><button class="{{ numberDisabled ? 'grow' : '' }}" disabled="{{ numberDisabled }}" catchtap="getNumber">{{ showText }}</button></view>
+<view class="c-i"><input bindinput="inputValue" type="password" data-type="pwd" placeholder="请输入密码"/></view>
+<view class="c-i"><input bindinput="inputValue" type="password" data-type="cPwd" placeholder="请再次输入密码"/></view>
+<view catchtap="register" class="c-i login">重置密码</view>
+</view>
