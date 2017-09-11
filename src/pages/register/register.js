@@ -47,25 +47,26 @@ Page({
   },
   // 获取输入内容
   inputValue (e) {
-    let type = e.currentTarget.dataset.type
-    let value = e.detail.value
-    let { iv } = this.data
-    if (type === 'phone') {
-      iv['phone'] = value
-    } else if (type === 'captcha') {
-      iv['captcha'] = value
-    } else if (type === 'name') {
-      iv['name'] = value
-    } else if (type === 'pwd') {
-      iv['pwd'] = value
-    }
-    this.setData({
-      iv
-    })
+    app.inputValue(e, this)
+    // let type = e.currentTarget.dataset.type
+    // let value = e.detail.value
+    // let { iv } = this.data
+    // if (type === 'phone') {
+    //   iv['phone'] = value
+    // } else if (type === 'captcha') {
+    //   iv['captcha'] = value
+    // } else if (type === 'name') {
+    //   iv['name'] = value
+    // } else if (type === 'pwd') {
+    //   iv['pwd'] = value
+    // }
+    // this.setData({
+    //   iv
+    // })
   },
   // 账号注册
   register () {
-    let { phone, captcha, name, pwd } = this.data.iv
+    let { phone, captcha, name, pwd } = this.data
     if (!phone || (phone.length * 1 !== 11)) {
       wx.showToast({
         title: '请输入正确的手机号码'
@@ -84,6 +85,14 @@ Page({
       })
     } else {
       // todo
+      wx.showToast({
+        title: '账号注册成功'
+      })
+      setTimeout(function () {
+        wx.navigateBack({
+          delta: 1
+        })
+      }, 1000)
     }
   },
   /**

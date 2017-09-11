@@ -4,9 +4,11 @@
   // https://mp.weixin.qq.com/debug/wxadoc/dev/framework/config.html#pages
   "pages": [
     "pages/worker/worker", // 员工界面
+//    "pages/workerTest/worker", // 员工界面
     "pages/login/login", // 用户登陆,
+    "pages/boss/boss", // 老板界面
     "pages/forget/forget", // 忘记密码
-    "pages/register/register" // 员工注册
+    "pages/register/register" // 员工注册,
     // Dont remove this comment
   ],
   // Window configuration

@@ -1,0 +1,42 @@
+<view class="nav">
+  <view catchtap="navChoose" data-index="{{ index }}" class="{{ curNav == index ? 'b' : '' }}" wx:for="{{ nav }}">{{ item }}</view>
+</view>
+
+<view class="top">
+  <view class="t-mt">打赏金额　(元)</view>
+  <view class="t-m">￥<text>{{ money }}</text></view>
+  <view class="t-l">评分等级　({{ level }})</view>
+  <view class="t-s">
+    <text wx:for="01234" class="iconfont icon-xing {{ index < level ? 'red' : 'grow' }}"></text>
+  </view>
+  <view class="t-b">
+    <view>
+      <text>打赏人数</text>
+      <text>{{ dsCount }}</text>
+    </view>
+    <view>
+      <text>评论次数</text>
+      <text>{{ plCount }}</text>
+    </view>
+  </view>
+</view>
+
+<view class="rank">
+  <view class="r-t">
+    <text>光荣榜</text>
+    <text>本店排名</text>
+  </view>
+
+  <view class="r-p">
+    <view class="r-p-s r-p-s-b">
+      <view>排名</view>
+      <view>姓名</view>
+      <view>打赏战报</view>
+    </view>
+    <navigator url="../worker/worker?id={{ item.id }}&from=boss" class="r-p-s" wx:for="{{ lists }}">
+      <view><image class="ig" wx:if="{{ index <= 2 }}" src="{{ index == 0 ? '../../images/gold.png' : index == 1 ? '../../images/sliver.png' : '../../images/copper.png' }}"></image>{{ index < 3 ? '' : index  }}</view>
+      <view>{{ item.name }}</view>
+      <view>{{ item.count }}次 <text class="r-p-m">￥{{ item.money }}</text></view>
+    </navigator>
+  </view>
+</view>

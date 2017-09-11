@@ -10,7 +10,7 @@ Page({
     title: 'login',
     img: 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
     showText: '获取验证码',
-    numberDisabled: false,
+    // numberDisabled: false,
     iv: {}
   },
   // 获取用户信息
@@ -30,7 +30,7 @@ Page({
     })
     let time = 60
     let that = this
-    let timer = setInterval(function () {
+    let timer = setInterval(() => {
       if (time <= 0) {
         clearInterval(timer)
         that.setData({
@@ -47,25 +47,26 @@ Page({
   },
   // 获取输入内容
   inputValue (e) {
-    let type = e.currentTarget.dataset.type
-    let value = e.detail.value
-    let { iv } = this.data
-    if (type === 'phone') {
-      iv['phone'] = value
-    } else if (type === 'captcha') {
-      iv['captcha'] = value
-    } else if (type === 'cPwd') {
-      iv['cPwd'] = value
-    } else if (type === 'pwd') {
-      iv['pwd'] = value
-    }
-    this.setData({
-      iv
-    })
+    app.inputValue(e, this)
+    // let type = e.currentTarget.dataset.type
+    // let value = e.detail.value
+    // let { iv } = this.data
+    // if (type === 'phone') {
+    //   iv['phone'] = value
+    // } else if (type === 'captcha') {
+    //   iv['captcha'] = value
+    // } else if (type === 'cPwd') {
+    //   iv['cPwd'] = value
+    // } else if (type === 'pwd') {
+    //   iv['pwd'] = value
+    // }
+    // this.setData({
+    //   iv
+    // })
   },
   // 密码重置
   register () {
-    let { phone, captcha, cPwd, pwd } = this.data.iv
+    let { phone, captcha, cPwd, pwd } = this.data
     if (!phone || (phone.length * 1 !== 11)) {
       wx.showToast({
         title: '请输入正确的手机号码'

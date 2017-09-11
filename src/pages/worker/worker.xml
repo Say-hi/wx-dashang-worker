@@ -1,12 +1,11 @@
 <view class="bg">
   <view class="br"></view>
 </view>
-
 <view class="c-wrap">
   <view class="user-wrap">
     <image class="br" src="{{ userInfo.avatarUrl }}"></image>
     <view class="u-name">{{ userInfo.nickName }}</view>
-    <view class="tx">我要提现</view>
+    <view catchtap="tiXian" data-from="{{ from }}" class="tx">{{ from == 'boss' ? '您的员工' : '我要提现' }}</view>
     <view class="b-bg"><image src="../../images/bg.png"></image></view>
     <view class="u-o">
       <view class="u-account">
@@ -27,9 +26,25 @@
       </picker>
     </view>
   </view>
+  <view class="showChoose">
+    <view catchtap="choose" data-index="1" class="column {{ curNav == 1 ? 'choose' : '' }}">
+      柱状图数据展示
+    </view>
+    <view catchtap="choose" data-index="2" class="line {{ curNav == 2 ? 'choose' : '' }}">
+      曲线图数据展示
+    </view>
+  </view>
   <!--数据展示canvas-->
-  <view class="container">
+  <view wx:if="{{ line }}" class="container">
     <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+  </view>
+  <view wx:else class="container">
+    <!--<view class="title">-->
+      <!--<view wx:if="{{!isMainChartDisplay}}" class="back-btn" bindtap="backToMainChart">返回</view>-->
+      <!--{{chartTitle}}-->
+    <!--</view>-->
+    <canvas canvas-id="columnCanvas" class="canvas" bindtouchstart="touchHandlerTwo"></canvas>
+    <!--<view style="text-align:center">点击数据每一项查看详情</view>-->
   </view>
 </view>
 

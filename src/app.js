@@ -17,33 +17,31 @@ App({
     name: '广州人马网络科技有限公司--打赏小程序',
     version: '0.1.0',
     userInfo: null
-    /*eslint-disable*/
-    /*eslint-enable*/
   },
   // 输入框内容
   inputValue (e, _that) {
     let that = _that
-    let type = e.currentTarget.dataset.type
-    let value = e.detail.value
-    if (type === 'name') {
+    let { type } = e.currentTarget.dataset
+    let { value } = e.detail
+    if (type === 'phone') {
+      that.setData({
+        phone: value
+      })
+    } else if (type === 'pwd') {
+      that.setData({
+        pwd: value
+      })
+    } else if (type === 'captcha') {
+      that.setData({
+        captcha: value
+      })
+    } else if (type === 'cPwd') {
+      that.setData({
+        cPwd: value
+      })
+    } else if (type === 'name') {
       that.setData({
         name: value
-      })
-    } else if (type === 'height') {
-      that.setData({
-        userHeight: value
-      })
-    } else if (type === 'company') {
-      that.setData({
-        compny: value
-      })
-    } else if (type === 'sport') {
-      that.setData({
-        likesSports: value
-      })
-    } else if (type === 'movie') {
-      that.setData({
-        likesMovies: value
       })
     } else if (type === 'book') {
       that.setData({
@@ -95,9 +93,9 @@ App({
   },
   // 请求数据
   wxrequest (obj) {
-    // wx.showLoading({
-    //   title: '加载数据中'
-    // })
+    wx.showLoading({
+      title: '请求数据中'
+    })
     wx.request({
       url: obj.url || useUrl.serviceUrl.login,
       method: obj.method || 'POST',
@@ -112,24 +110,7 @@ App({
         console.log('未传入fail回调函数,err:' + err.errMsg)
       },
       complete: obj.complete || function () {
-        // console.log(res)
-        // wx.hideLoading()
-        // if (res.data.code === 400 && res.data.message != 'session_key失效') {
-        //   if (res.data.message === 'session_key 不存在！') {
-        //     res.data.message = '请授权获取信息'
-        //   }
-        //   wx.showModal({
-        //     title: '系统消息',
-        //     content: res.data.message,
-        //     showCancel: false
-        //   })
-        // } else if (res.data.message === 'session_key 不存在！') {
-        //   wx.showModal({
-        //     title: '系统消息',
-        //     content: '请授权获取信息',
-        //     showCancel: false
-        //   })
-        // }
+        wx.hideLoading()
       }
     })
   },
@@ -155,15 +136,14 @@ App({
                 let obj = {
                   success (data) {
                     wx.setStorageSync('userInfo', data.userInfo)
-                    let iv = data.iv
-                    let encryptedData = data.encryptedData
+                    let {iv, encryptedData} = data
                     // 获取session_key
                     let objs = {
                       url: useUrl.login,
                       data: {
-                        code: code,
-                        iv: iv,
-                        encryptedData: encryptedData
+                        code,
+                        iv,
+                        encryptedData
                       },
                       success (res) {
                         // let session_key = 'akljgaajgoehageajnafe'
@@ -180,7 +160,7 @@ App({
                   fail (res) {
                     console.log(res)
                     wx.showToast({
-                      title: '您未授权小程序,请在个人中心登陆'
+                      title: '您未授权小程序,请授权登陆'
                     })
                   }
                 }
@@ -209,15 +189,19 @@ App({
           let obj = {
             success (data) {
               wx.setStorageSync('userInfo', data.userInfo)
-              let iv = data.iv
-              let encryptedData = data.encryptedData
+              // let iv = data.iv
+              // let encryptedData = data.encryptedData
+              let {iv, encryptedData} = data
               // 获取session_key
               let objs = {
                 url: useUrl.login,
                 data: {
-                  code: code,
-                  iv: iv,
-                  encryptedData: encryptedData
+                  // code: code,
+                  // iv: iv,
+                  // encryptedData: encryptedData
+                  code,
+                  iv,
+                  encryptedData
                 },
                 success (res) {
                   // let session_key = 'akljgaajgoehageajnafe'
@@ -234,7 +218,7 @@ App({
             fail (res) {
               console.log(res)
               wx.showToast({
-                title: '您未授权小程序,请在个人中心登陆'
+                title: '您未授权小程序,请授权登陆'
               })
             }
           }
@@ -246,26 +230,6 @@ App({
       })
     }
   },
-  // 获取自己的信息判断session是否有效
-  // getMySelf () {
-  //   let that = this
-  //   let checkObj = {
-  //     url: useUrl.getUserinfo,
-  //     data: {
-  //       session_key: wx.getStorageSync('session_key')
-  //     },
-  //     success (res) {
-  //       // session失效
-  //       if (res.data.code === 400 && res.data.message === 'session_key 失效！') {
-  //         console.log('session_key失效')
-  //
-  //       } else {
-  //         return
-  //       }
-  //     }
-  //   }
-  //   that.wxrequest(checkObj)
-  // },
   // 获取用户信息
   getUserInfo (obj) {
     wx.getUserInfo({
